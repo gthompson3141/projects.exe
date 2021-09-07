@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightblue;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+
+  width: 50%;
+  background-color: white;
+  align-self: center;
+  display: block;
+  margin: 120px auto;
+  box-shadow: 5x 10px 20px black;
+}
+
+h1{
+  background-color: teal;
+  margin-bottom: auto;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+ul{
+
+  margin: 0;
+  border-left: 6px solid teal;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li{
+
+  cursor: pointer;
+  position: relative;
+  padding: 5px 40px 5px 40px;
+  background: whitesmoke;
+  font-size: 18px; 
+  transition: 0.2s;
+  user-select: none;
+  color: #000;
+  text-align: left;
+}
+
+ul li:hover{
+
+  background-color: rgb(194, 199, 199);
+}
+
+.clear{
+  width : 30px;
+  height: 30px;
+  position: absolute;
+  right:500px;
+  top: 125px;
+}
+.clear i::after{
+  content: "↻";
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.clear i:hover{
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #000;
+  transform: rotate(45deg);
+}
+
+.close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.checkedTick::after{
+  content: "";
+  font-style: normal;
+  position: absolute;
+  font-size: 30px;
+  padding-left:0px;
+  padding-right:0px; 
+  padding-top:0px;
+  left:15px;
+  top:15px;
+}
+
+.plusDo{
+  content: "\U002B";
+}
+
+
+.closeCross::after{
+  content: "˟";
+  font-size: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 20px 23px 12px 16px;
+}
+
+.closeCross:hover::after{
+  background-color: orangered;
+  color: white;
+}
+
+.add-element{
+  background-color: teal;
+  padding: 30px 30px;
+  color: wheat;
+  text-align: center;
+}
+
+.add-element::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input{
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+button{
+  padding: 10px;
+  width: 25%;
+  background: wheat;
+  color: teal;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+button:hover{
+  background-color: beige;
+}
