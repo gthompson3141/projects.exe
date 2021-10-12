@@ -1,0 +1,84 @@
+.wrapper{
+    background-color: black;
+    font-size: 1.5em;
+}
+
+body{
+    text-align: center;
+}
+ul{
+    text-align: right;
+    position: relative;
+    grid-template-columns: auto;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+ul li{
+    display: inline;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.wrapper a:hover{
+    color: blue;
+}
+.signup-form{
+    background-color: grey;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.7em;
+}
+
+.signup-form input{
+    display: list-item;
+    font-size: 1.5em;
+}
+
+.signup-form button{
+    font-size: 1.5em;
+}
+
+#site-title{
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.intro-title{
+    text-align: center;
+}
+
+.booking{
+    background-color: grey;
+    width: 300px;
+    display: inline-block;
+}
+
+.new-booking a{
+    color: black;
+    font-size: 1em;
+}
+
+.booking-form{
+    background-color: grey;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.booking-form input{
+    display: list-item;
+    font-size: 1.5em;
+}
+
+
+
+
+
